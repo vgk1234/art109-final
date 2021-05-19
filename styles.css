@@ -5,6 +5,13 @@ body {
     margin-top: 50px;
     text-align: center;
     background-color: black;
+    animation: bgcolor 4s infinite;
+}
+
+@keyframes bgcolor {
+    0% {background-color: black;}
+    50% {background-color: #336600;}
+    100% {background-color: black;}
 }
 
 h1 {
