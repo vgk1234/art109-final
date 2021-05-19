@@ -5,6 +5,8 @@ body {
     margin-top: 50px;
     text-align: center;
     background-color: black;
+    background-image: url("Other/Background_Pic.png");
+    background-repeat: repeat-y;
     animation: bgcolor 4s infinite;
 }
 
